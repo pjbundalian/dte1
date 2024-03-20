@@ -16,7 +16,7 @@ Before running the script, ensure you have a Bash shell available. This script i
 Ensure your project directory is set up as follows before running the script:
 
 ```
-project_directory/
+dte1/
 │
 ├── code_snippet.sh
 ├── file_diff.txt
@@ -48,7 +48,7 @@ The script will process the `file_diff.txt` file, and based on the contents, it 
 After running the script, your directory structure will include:
 
 ```
-project_directory/
+dte1/
 │
 ├── added.txt
 ├── removed.txt
@@ -64,5 +64,3 @@ project_directory/
 
 - `added.txt`: Lists files that were copied to `deployPackage/added/`.
 - `removed.txt`: Lists files that were moved to `deployPackage/removed/`.
-
-For further assistance or to report issues, please contact the script maintainer.
